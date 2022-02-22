@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="RayMarcher.cpp" />
+    <ClCompile Include="Objects.cpp" />
+    <ClCompile Include="dependencies\gl3w\src\gl3w.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common.h" />
+    <ClInclude Include="RayMarcher.h" />
+    <ClInclude Include="Objects.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vs.glsl" />
+    <None Include="fs.glsl" />
+  </ItemGroup>
+</Project>
